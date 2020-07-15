@@ -11,42 +11,45 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
 
-  @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
+  .wrap {
     width: 75vw;
   }
+}
 
-  .wrap h6 {
-    margin: 0 0 20px;
-    font-size: 25px;
-  }
+.wrap h6 {
+  margin: 0 0 20px;
+  font-size: 25px;
+}
 
-  .wrap h6 :last-child {
-    margin: 0;
-  }
+.wrap h6:last-child {
+  margin: 0;
+}
 
-  .wrap a {
-    position: relative;
-    overflow: hidden;
-    text-decoration: none;
-    color: #EC407A;
-  }
+.wrap h6 a {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: #EC407A;
+}
 
-  .wrap h6 a::after {
-    content: "";
-    background: #EC407A;
-    position: absolute;
-    left: 12px;
-    bottom: -6px;
-    width: calc(100% - 8px);
-    height: calc(100% - 8px);
-    z-index: -1;
-    transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
-  }
+.wrap h6 a::after {
+  content: "";
+  background: #EC407A;
+  position: absolute;
+  left: 12px;
+  bottom: -6px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  z-index: -1;
+  transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+}
 
-  .wrap h6 a:hover:after {
-    left: 0;
-    bottom: -2px;
-    width: 100%;
-    height: 100%;
-  }
+.wrap h6 a:hover:after {
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 100%;
+}
