@@ -3,7 +3,6 @@
   min-height: calc(100vh - 145px);
 }
 
-$link: #EC407A;
 .wrap {
   width: 50vw;
   box-sizing: border-box;
@@ -27,7 +26,7 @@ a {
     position: relative;
     overflow: hidden;
     text-decoration: none;
-    color: $link;
+    color: #EC407A;
   }
 
   .wrap p a::after {
@@ -48,9 +47,3 @@ a {
       width: 100%;
       height: 100%;
     }
-
-body {
-  background: #ECEFF1;
-  font-family: 'Ubuntu', sans-serif;
-  color: #2a2a2a;
-}
