@@ -44,7 +44,7 @@ body {
 }*/
 
 @media (min-width:400px) {
-  
+
 
 }
 
@@ -66,7 +66,7 @@ body {
 
 .wrap h6 a::after {
   content: "";
-    background: #5B7BA5;
+    background: #C0E8F9;
   position: absolute;
   left: 12px;
   bottom: -6px;
