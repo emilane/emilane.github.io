@@ -9,7 +9,7 @@ body {
 }
 
 .footer {
-  background-color: #342a2a;
+  background-color: #6A722F;
   color: #fffbef;
 }
 
@@ -20,11 +20,6 @@ body {
 
 .skills {
   background-color: #fff;
-}
-
-.nav {
-  background-color: #f6a698;
-  
 }
 
 .big-ass-wrapper {
@@ -66,7 +61,7 @@ body {
 
 .wrap h6 a::after {
   content: "";
-  background: #EC407A;
+  background: #5B7BA5;
   position: absolute;
   left: 12px;
   bottom: -6px;
