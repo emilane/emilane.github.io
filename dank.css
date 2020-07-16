@@ -9,7 +9,7 @@ body {
 }
 
 .footer {
-  background-color: #30343f;
+  background-color: #342a2a;
   color: #fffbef;
 }
 
@@ -24,6 +24,7 @@ body {
 
 .nav {
   background-color: #f6a698;
+  
 }
 
 .big-ass-wrapper {
@@ -36,9 +37,9 @@ body {
   box-sizing: border-box;
   line-height: 1.65;
   position: absolute;
-  top: 50%;
+  /*top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
 }
 
 @media screen and (max-width: 800px) {
@@ -60,7 +61,7 @@ body {
   position: relative;
   overflow: hidden;
   text-decoration: none;
-  color: #fff;
+  color: #342a2a;
 }
 
 .wrap h6 a::after {
