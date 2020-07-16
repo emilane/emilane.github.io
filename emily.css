@@ -36,11 +36,16 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);*/
 }
-
+/*
 @media screen and (max-width: 800px) {
   .wrap {
     width: 75vw;
   }
+}*/
+
+@media (min-width:400px) {
+  
+
 }
 
 .wrap h6 {
