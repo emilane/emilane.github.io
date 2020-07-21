@@ -12,13 +12,17 @@ body {
   color: #342a2a;
 }
 
-.container {
-  max-width: 1600px; /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
-  width: 80%;
+.nav li {
+  display: inline;
 }
 
-.hero {
-  padding-top: 5%;
+.nav li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.container {
+  max-width: 1600px; /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
+  width: 90%;
 }
 
 .values {
@@ -26,16 +30,17 @@ body {
 }
 
 .values h4, .skills h4 {
-  margin: 0
+  margin-top: 0;
 }
 
 .values p {
-  margin-top: 40px;
-  font-size: 24px;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
 .footer-wrapper {
   width: 100%;
+  padding: 20px 0;
   background-color: #6A722F;
 }
 
@@ -69,15 +74,35 @@ body {
    want to force heights. Also vh is bad news on mobile. */
 @media (min-width: 550px) {
   html, body, .page {
-    height: 100%
+    height: 100%;
+  }
+
+  .nav li {
+    display: list-item;
+  }
+
+  .container {
+    width: 80%;
   }
 
   .body {
     height: calc(100vh - 185px);
   }
 
+  .hero {
+    padding-top: 5%;
+  }
+
+  .values h4, .skills h4 {
+    margin: 0;
+  }
+
+  .values p {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
   .footer-wrapper {
-    padding: 20px 0;
     height: 185px;
   }
 }
