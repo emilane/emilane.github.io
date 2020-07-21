@@ -48,6 +48,23 @@ body {
   flex-wrap: wrap;
 }
 
+.social a {
+  text-decoration: none;
+  border: 0;
+  width: 36px;
+  height: 36px;
+  padding: 2px;
+  margin: 5px;
+  color: #5b7ba5;
+  border-radius: 35%;
+  background-color: #c0e8f9;
+}
+
+.social svg {
+  display: block;
+  fill: currentColor;
+}
+
 /* Things will switch to a stacked layout below this breakpoint, so we don't
    want to force heights. Also vh is bad news on mobile. */
 @media (min-width: 550px) {
