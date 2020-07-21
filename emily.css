@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: none;
+  max-width: 1600px; /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
   width: 80%;
 }
 
@@ -25,12 +25,13 @@ body {
   padding: 15% 0;
 }
 
-.values p {
-  font-size: 18px;
+.values h4, .skills h4 {
+  margin: 0
 }
 
-.values h4, .skills h4 {
-  margin: 0;
+.values p {
+  margin-top: 40px;
+  font-size: 24px;
 }
 
 .footer-wrapper {
