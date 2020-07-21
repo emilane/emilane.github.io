@@ -12,14 +12,6 @@ body {
   color: #342a2a;
 }
 
-.nav li {
-  display: inline;
-}
-
-.nav li:not(:last-child) {
-  margin-right: 15px;
-}
-
 .container {
   max-width: 1600px; /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
   width: 90%;
@@ -68,6 +60,18 @@ body {
 .social svg {
   display: block;
   fill: currentColor;
+}
+
+
+/* Some mobile-specific layout tweaks */
+@media (max-width: 549px) {
+  .nav li {
+    display: inline;
+  }
+
+  .nav li:not(:last-child) {
+    margin-right: 15px;
+  }
 }
 
 /* Things will switch to a stacked layout below this breakpoint, so we don't
