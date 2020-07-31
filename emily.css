@@ -14,11 +14,11 @@ body {
 
 .container {
   max-width: 1600px; /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
-  width: 90%;
+  width: 95%;
 }
 
 .values {
-  padding: 15% 0;
+  padding: 5% 0;
 }
 
 .values h4, .skills h4 {
@@ -52,7 +52,7 @@ body {
   height: 36px;
   padding: 2px;
   margin: 5px;
-  color: #5b7ba5;
+  color: #342a2a;
   border-radius: 35%;
   background-color: #c0e8f9;
 }
@@ -86,7 +86,7 @@ body {
   }
 
   .container {
-    width: 80%;
+    width: 95%;
   }
 
   .body {
@@ -102,8 +102,11 @@ body {
   }
 
   .values p {
-    font-size: 24px;
-    margin-top: 40px;
+    font-size: 18px;
+  }
+
+  .skills p {
+    font-size: 18px;
   }
 
   .footer-wrapper {
