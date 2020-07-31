@@ -12,13 +12,61 @@ body {
   color: #342a2a;
 }
 
+a {
+  color: #342a2a;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
 .container {
   max-width: 1600px; /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
   width: 95%;
 }
 
+.nav h3 a {
+  text-decoration: none;
+}
+
+.nav h3 a:hover {
+  color: #C0E8F9;
+}
+
+.nav h3 {
+  font-size: 24px;
+}
+
+.nav li {
+    font-size: 18px;
+}
+
+.nav-list {
+  font-weight: 700;
+}
+
 .values {
-  padding: 5% 0;
+  padding: 40px 0 15px 0;
 }
 
 .values h4, .skills h4 {
@@ -30,6 +78,15 @@ body {
   font-size: 18px;
 }
 
+.fill-wrapper {
+  background-color: #D496A7;
+  padding: 55px 0;
+}
+
+.skills li {
+  font-size: 18px;
+}
+
 .footer-wrapper {
   width: 100%;
   padding: 20px 0;
@@ -38,11 +95,13 @@ body {
 
 .footer {
   color: #fffbef;
+  text-align: center;
 }
 
 .social {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .social a {
@@ -95,6 +154,7 @@ body {
 
   .hero {
     padding-top: 5%;
+    text-align: center;
   }
 
   .values h4, .skills h4 {
