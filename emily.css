@@ -20,6 +20,18 @@ ul {
   margin-bottom: 0;
 }
 
+h1, h2, h3, h4, h5, h6, li {
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 800;
+}
+
 p {
   font-family: 'Lato', sans-serif;
 }
@@ -43,6 +55,14 @@ ul li:last-child {
 
 .nav h3 {
   font-size: 24px;
+}
+
+.nav li {
+    font-size: 18px;
+}
+
+.nav-list {
+  font-weight: 700;
 }
 
 .values {
