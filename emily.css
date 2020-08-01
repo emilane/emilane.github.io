@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #fffbef;
+  background-color: #ffd5c2;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
@@ -50,7 +50,7 @@ ul li:last-child {
 }
 
 .nav h3 a:hover {
-  color: #C0E8F9;
+  color: #9DE1FB;
 }
 
 .nav h3 {
@@ -79,7 +79,7 @@ ul li:last-child {
 }
 
 .fill-wrapper {
-  background-color: #D496A7;
+  background-color: #ffffff;
   padding: 55px 0;
 }
 
@@ -90,7 +90,7 @@ ul li:last-child {
 .footer-wrapper {
   width: 100%;
   padding: 20px 0;
-  background-color: #6A722F;
+  background-color: #05668d;
 }
 
 .footer {
@@ -113,7 +113,7 @@ ul li:last-child {
   margin: 5px;
   color: #342a2a;
   border-radius: 35%;
-  background-color: #c0e8f9;
+  background-color: #9DE1FB;
 }
 
 .social svg {
@@ -170,6 +170,6 @@ ul li:last-child {
   }
 
   .footer-wrapper {
-    height: 185px;
+    height: 80px;
   }
 }
