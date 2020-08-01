@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #ffd5c2;
+  background-color: #FCFAF9;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
@@ -50,7 +50,7 @@ ul li:last-child {
 }
 
 .nav h3 a:hover {
-  color: #9DE1FB;
+  color: #A9DAD9;
 }
 
 .nav h3 {
@@ -66,7 +66,7 @@ ul li:last-child {
 }
 
 .values {
-  padding: 40px 0 15px 0;
+  padding: 40px 0 5px 0;
 }
 
 .values h4, .skills h4 {
@@ -79,8 +79,8 @@ ul li:last-child {
 }
 
 .fill-wrapper {
-  background-color: #ffffff;
-  padding: 55px 0;
+/*  background-color: #FCFAF9; */
+  padding: 20px 0 40 0;
 }
 
 .skills li {
@@ -90,7 +90,7 @@ ul li:last-child {
 .footer-wrapper {
   width: 100%;
   padding: 20px 0;
-  background-color: #05668d;
+  background-color: #3b7080;
 }
 
 .footer {
@@ -98,6 +98,7 @@ ul li:last-child {
   text-align: center;
 }
 
+/*
 .social {
   display: flex;
   flex-wrap: wrap;
@@ -120,7 +121,7 @@ ul li:last-child {
   display: block;
   fill: currentColor;
 }
-
+*/
 
 /* Some mobile-specific layout tweaks */
 @media (max-width: 549px) {

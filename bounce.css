@@ -13,7 +13,7 @@
 
 .bounce-effect-wrapper a::after {
   content: "";
-  background: #D8F3FD;
+  background: #A9DAD9;
   position: absolute;
   left: 12px;
   bottom: -6px;
