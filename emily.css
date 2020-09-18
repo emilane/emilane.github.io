@@ -187,3 +187,8 @@ ul li:last-child {
 .resume-list-wrapper li {
   font-family: 'Lato', sans-serif;
 }
+
+.resume h6 {
+  margin-top: -5px;
+
+}
