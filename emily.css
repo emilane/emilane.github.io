@@ -3,17 +3,18 @@
 }
 
 body {
-  background-color: #FCFAF9;
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  background-color: #FAF7EF;
+  font-size: 1.5em;
+  /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   /*font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: "Playfair Display", serif;
-  color: #342a2a;
+  color: #35313C;
 }
 
 a {
-  color: #342a2a;
+  color: #35313C;
 }
 
 ul {
@@ -26,7 +27,9 @@ h1, h2, h3, h4, li {
 
 h2 {
   font-weight: 800;
+  text-align: left;
 }
+
 h3 {
   font-weight: 700;
 }
@@ -49,8 +52,17 @@ ul li:last-child {
   margin-bottom: 0;
 }
 
+.values row {
+  padding-bottom: 10px;
+}
+
+.nav {
+  padding-top: 1%
+}
+
 .container {
-  max-width: 1600px; /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
+  max-width: 1600px;
+  /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
   width: 95%;
 }
 
@@ -59,7 +71,7 @@ ul li:last-child {
 }
 
 .nav h3 a:hover {
-  color: #A9DAD9;
+  color: #D1D9AE;
 }
 
 .nav h3 {
@@ -67,7 +79,7 @@ ul li:last-child {
 }
 
 .nav li {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .nav-list {
@@ -75,10 +87,10 @@ ul li:last-child {
 }
 
 .values {
-  padding: 40px 0 5px 0;
+  padding: 60px 0 60px 0;
 }
 
-.values h4, .skills h4 {
+.values h4, .strengths h4 {
   margin-top: 0;
 }
 
@@ -87,50 +99,17 @@ ul li:last-child {
   font-size: 18px;
 }
 
+/*
 .fill-wrapper {
-/*  background-color: #FCFAF9; */
+ background-color: #FCFAF9;
   padding: 20px 0 40 0;
 }
-
-.skills li {
+*/
+.strengths li {
   font-size: 18px;
 }
 
-.footer-wrapper {
-  width: 100%;
-  padding: 20px 0;
-  background-color: #3b7080;
-}
 
-.footer {
-  color: #fffbef;
-  text-align: center;
-}
-
-/*
-.social {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.social a {
-  text-decoration: none;
-  border: 0;
-  width: 36px;
-  height: 36px;
-  padding: 2px;
-  margin: 5px;
-  color: #342a2a;
-  border-radius: 35%;
-  background-color: #9DE1FB;
-}
-
-.social svg {
-  display: block;
-  fill: currentColor;
-}
-*/
 
 /* Some mobile-specific layout tweaks */
 @media (max-width: 549px) {
@@ -162,12 +141,7 @@ ul li:last-child {
     height: calc(100vh - 185px);
   }
 
-  .hero {
-    padding-top: 5%;
-    text-align: center;
-  }
-
-  .values h4, .skills h4 {
+  .values h4, .strengths h4 {
     margin: 0;
   }
 
@@ -175,7 +149,7 @@ ul li:last-child {
     font-size: 18px;
   }
 
-  .skills p {
+  .strengths p {
     font-size: 18px;
   }
 
@@ -190,5 +164,4 @@ ul li:last-child {
 
 .resume h6 {
   margin-top: -5px;
-
 }
