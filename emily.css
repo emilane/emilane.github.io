@@ -52,6 +52,16 @@ ul li:last-child {
   margin-bottom: 0;
 }
 
+.draft {
+  float: right;
+  max-width: 700px;
+}
+
+.social {
+  float: left;
+  max-width: 350px;
+}
+
 .values row {
   padding-bottom: 10px;
 }
@@ -108,8 +118,6 @@ ul li:last-child {
 .strengths li {
   font-size: 18px;
 }
-
-
 
 /* Some mobile-specific layout tweaks */
 @media (max-width: 549px) {
